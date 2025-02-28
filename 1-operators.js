@@ -1,3 +1,13 @@
+/* ---------------------------------- */
+//!             OPERATORS             */
+/* ---------------------------------- */
+//! Aritmatik Operatorler
+
+let a = 10;
+let b = 2;
+
+console.log(a + b);
+console.log(a - b);
 console.log(a * b);
 console.log(a / b);
 console.log(a % b);
@@ -54,3 +64,26 @@ console.log(t);
 t++;
 t **= 6; //! t = t**z
 console.log(t);
+
+/* ---------------------------------- */
+/*        COMPARISON OPERATORS        */
+/* ---------------------------------- */
+//Karşılaştırma opretörleri bize Boolean bir değer döndürür.
+
+let c = 2;
+let d = "2";
+console.log(typeof c);
+console.log(typeof d);
+console.log(c == d); // == eşittir tipine bakmadan sadece değerler aynıysa eşit olarak kabul eder.
+console.log(c === d); // === hem veri tipini kontrol eder hemde değeri kontrol eder.
+
+// otomatik tip dönüşümü - Type conversion
+// + hariç diğerlerinde bir string ve number ifade işleme alınıyosa js insiyatif kullanır ve işlemi gerçekleştirir.
+
+console.log(c - d);
+
+console.log(c != d); // false sonucu vererek eşittir demiş oluyor:
+//eşit değildir =>false yani eşittir sonucunu veriyor. ikisi değer olarak eşit olduğu için eşit değildir kontrolünde (false) yani eşittir olarak veriyor. Tiplerine bakmadan kontrol ediyor
+console.log(c !== d); // 2="2" eşit değil değil mi, evet bunlar eşit değil.
+
+/*-----------------------------------------------------------*/
