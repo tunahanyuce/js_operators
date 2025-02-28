@@ -1,13 +1,3 @@
-/* ---------------------------------- */
-//!             OPERATORS             */
-/* ---------------------------------- */
-//! Aritmatik Operatorler
-
-let a = 10;
-let b = 2;
-
-console.log(a + b);
-console.log(a - b);
 console.log(a * b);
 console.log(a / b);
 console.log(a % b);
@@ -39,9 +29,28 @@ console.log("DECREMENT");
 console.log(--x);
 
 console.clear();
-//ASSIGMENT OPERATORS
+
+// ASSIGMENT OPERATORS
+
 let t = 7;
 let z = 6;
 console.log(t);
 t = z;
+console.log(t);
+
+// t = t+z
+// t = t-z
+console.log(t);
+t += z; //! t = t+z
+console.log(t);
+t -= z; //! t = t-z
+console.log(t);
+t *= 3; //! t = t*z
+console.log(t);
+t /= 2; //! t = t/z
+console.log(t);
+t %= 4; //! t = t%z
+console.log(t);
+t++;
+t **= 6; //! t = t**z
 console.log(t);
